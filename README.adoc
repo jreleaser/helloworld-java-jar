@@ -3,5 +3,4 @@
 This repository shows how to configure link:https://github.com/features/actions[GitHub Actions] and link:https://jreleaser.org/[JReleaser] to:
 
  * compile a helloworld app
- * assemble a zip distributions with JReleaser
  * create rolling early-access releases with JReleaser on every push to `main` branch
