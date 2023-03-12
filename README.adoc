@@ -4,3 +4,15 @@ This repository shows how to configure link:https://github.com/features/actions[
 
  * compile a helloworld app
  * create rolling early-access releases with JReleaser on every push to `main` branch
+
+There are two modes for running this application: classpath & modulepath.
+
+*classpath*
+
+ 1. `./mvnw verify`
+ 2. `java -jar target/helloworld-<version>.jar`
+
+*modulepath*
+
+ 1. `./mvnw verify`
+ 2. `java -p target/helloworld-<version>.jar -m ororg.jreleaser.examples/org.jreleaser.examples.HelloWorld`
