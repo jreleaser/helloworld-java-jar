@@ -5,6 +5,9 @@ This repository shows how to configure link:https://github.com/features/actions[
  * compile a helloworld app
  * create rolling early-access releases with JReleaser on every push to `main` branch
 
+IMPORTANT: JReleaser requires 2 additional inputs that may be set as environment variables, `JRELEASER_PROJECT_VERSION` and `JRELEASER_GITHUB_TOKEN`. 
+More information about environment variable configuration may be found in the link:https://jreleaser.org/guide/latest/reference/environment.html[guide].
+
 There are two modes for running this application: classpath & modulepath.
 
 *classpath*
